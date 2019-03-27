@@ -9,6 +9,6 @@ build:
     - ./a.out
     - gcov -b -c adku.c
     - pip install git+https://github.com/gcovr/gcovr.git
-    - gcovr --xml -r .
+    - gcovr --xml -r . >> ./shippable/codecoverage/coverage.xml
 
 

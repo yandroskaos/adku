@@ -1,0 +1,9 @@
+language: c
+
+compiler:
+  - gcc
+  
+build:
+  ci:
+    - gcc adku.c
+    - a.out

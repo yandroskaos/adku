@@ -5,5 +5,7 @@ compiler:
   
 build:
   ci:
-    - gcc adku.c
+    - gcc -fprofile-arcs -ftest-coverage adku.c
     - ./a.out
+    - gcov -b -c adku.c
+

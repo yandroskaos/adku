@@ -1,5 +1,0 @@
-language: c
-sudo: false # only for faster builds
-script:
-  - gcc -O0 adku.c -o adku
-  - ./adku

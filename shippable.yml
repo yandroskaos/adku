@@ -8,4 +8,7 @@ build:
     - gcc -fprofile-arcs -ftest-coverage adku.c
     - ./a.out
     - gcov -b -c adku.c
+    - pip install git+https://github.com/gcovr/gcovr.git
+    - gcovr --xml -r .
+
 

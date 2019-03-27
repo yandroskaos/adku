@@ -6,4 +6,4 @@ compiler:
 build:
   ci:
     - gcc adku.c
-    - a.out
+    - ./a.out
